@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.Streaming.App.video.Streaming.Backend.App.VideoStreamingBackendAppApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 19.37 s <<< FAILURE! -- in com.Streaming.App.video.Streaming.Backend.App.VideoStreamingBackendAppApplicationTests
+com.Streaming.App.video.Streaming.Backend.App.VideoStreamingBackendAppApplicationTests.contextLoads -- Time elapsed: 1.727 s <<< ERROR!
+java.lang.RuntimeException: Video processing fail!!
+	at com.Streaming.App.video.Streaming.Backend.App.service.impl.videoServiceImpl.processVideo(videoServiceImpl.java:262)
+	at com.Streaming.App.video.Streaming.Backend.App.VideoStreamingBackendAppApplicationTests.contextLoads(VideoStreamingBackendAppApplicationTests.java:15)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
